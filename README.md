@@ -25,7 +25,7 @@
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js
 - MongoDB
 - npm or yarn
 
