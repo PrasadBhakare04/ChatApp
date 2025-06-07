@@ -86,7 +86,7 @@ Visit `http://localhost:3000` in your browser.
 ![image alt](https://github.com/PrasadBhakare04/ChatApp/blob/a9bc998d21dc8867112a367db201337721accb98/Screenshot.png)
 
 ## Recording
-[![Watch the video](https://github.com/PrasadBhakare04/ChatApp/blob/a9bc998d21dc8867112a367db201337721accb98/Screenshot.png?raw=true)](https://www.youtube.com/watch?v=v=Okp_yAMaA-g)
+[![Watch the video](https://github.com/PrasadBhakare04/ChatApp/blob/a9bc998d21dc8867112a367db201337721accb98/Screenshot.png?raw=true)](https://www.youtube.com/watch?v=Okp_yAMaA-g)
 
 ## License
 
