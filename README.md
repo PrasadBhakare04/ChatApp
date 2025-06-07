@@ -82,6 +82,9 @@ Visit `http://localhost:3000` in your browser.
    - Use the "Login" request
    - Save the JWT token for chat authentication
 
+## Screenshot
+![image alt](https://github.com/PrasadBhakare04/ChatApp/blob/a9bc998d21dc8867112a367db201337721accb98/Screenshot.png)
+
 
 ## License
 
