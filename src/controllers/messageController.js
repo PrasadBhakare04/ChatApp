@@ -47,40 +47,6 @@ const getChatHistory = async (req, res) => {
   }
 };
 
-// Update message status
-exports.updateMessageStatus = async (req, res) => {
-  try {
-    const { messageId } = req.params;
-    const { status } = req.body;
-
-    const message = await Message.findById(messageId);
-    if (!message) {
-      return res.status(404).json({ error: 'Message not found' });
-    }
-
-    message.status = status;
-    await message.save();
-
-    res.json(message);
-  } catch (error) {
-    res.status(400).json({ error: error.message });
-  }
-};
-
-// Get unread messages count
-exports.getUnreadCount = async (req, res) => {
-  try {
-    const count = await Message.countDocuments({
-      receiver: req.user._id,
-      status: { $ne: 'seen' }
-    });
-
-    res.json({ unreadCount: count });
-  } catch (error) {
-    res.status(400).json({ error: error.message });
-  }
-};
-
 module.exports = {
   sendMessage,
   getChatHistory

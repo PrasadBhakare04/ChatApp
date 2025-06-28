@@ -3,7 +3,6 @@ const router = express.Router();
 const messageController = require('../controllers/messageController');
 const auth = require('../middleware/auth');
 
-// All message routes are protected
 router.use(auth);
 
 // Message routes
